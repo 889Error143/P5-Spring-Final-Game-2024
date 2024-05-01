@@ -22,7 +22,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50798
+50231
 Successfully changed project path to: /Users/simonparedes143/Documents/GitHub/P5-Spring-Final-Game-2024/P5-Finals-Games
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/simonparedes143/Documents/GitHub/P5-Spring-Final-Game-2024/P5-Finals-Games
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Could not lock editor preferences. Preferences updates for this instance of Unit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8340863680] Host "[IP] 10.94.19.167 [Port] 0 [Flags] 2 [Guid] 39585889 [EditorId] 39585889 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8280324800] Host "[IP] 10.94.19.167 [Port] 0 [Flags] 2 [Guid] 2814972919 [EditorId] 2814972919 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8340863680] Host "[IP] 10.94.19.167 [Port] 0 [Flags] 2 [Guid] 39585889 [EditorId] 39585889 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8280324800] Host "[IP] 10.94.19.167 [Port] 0 [Flags] 2 [Guid] 2814972919 [EditorId] 2814972919 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,17 +76,17 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56521
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001060 seconds.
-- Loaded All Assemblies, in  0.166 seconds
+Registered in 0.000902 seconds.
+- Loaded All Assemblies, in  0.168 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.126 seconds
+- Finished resetting the current domain, in  0.124 seconds
 Domain Reload Profiling: 292ms
 	BeginReloadAssembly (38ms)
 		ExecutionOrderSort (0ms)
@@ -97,18 +97,18 @@ Domain Reload Profiling: 292ms
 	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (77ms)
+	LoadAllAssembliesAndSetupDomain (78ms)
 		LoadAssemblies (38ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (76ms)
-			TypeCache.Refresh (76ms)
-				TypeCache.ScanAssembly (68ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (70ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (126ms)
+	FinalizeReload (124ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (93ms)
+		SetupLoadedEditorAssemblies (92ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 292ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.288 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.276 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,48 +132,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.267 seconds
-Domain Reload Profiling: 555ms
-	BeginReloadAssembly (64ms)
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 541ms
+	BeginReloadAssembly (60ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (21ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (107ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (102ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (97ms)
-			TypeCache.Refresh (89ms)
-				TypeCache.ScanAssembly (80ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (267ms)
+	FinalizeReload (265ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (192ms)
+		SetupLoadedEditorAssemblies (190ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (26ms)
-			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadAttributes (151ms)
 			ProcessInitializeOnLoadMethodAttributes (9ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (51.1 KB). Loaded Objects now: 3543.
-Memory consumption went from 128.9 MB to 128.9 MB.
-Total: 2.022667 ms (FindLiveObjects: 0.091250 ms CreateObjectMapping: 0.038375 ms MarkObjects: 1.825208 ms  DeleteObjects: 0.067542 ms)
+Memory consumption went from 129.0 MB to 128.9 MB.
+Total: 2.132292 ms (FindLiveObjects: 0.089792 ms CreateObjectMapping: 0.042125 ms MarkObjects: 1.939583 ms  DeleteObjects: 0.060416 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,25 +190,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 12888.715861 seconds.
-  path: Assets/prefabs/floor_tile_small_broken_B.prefab
-  artifactKey: Guid(93a7fe50d5131424189b674368cfdb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/floor_tile_small_broken_B.prefab using Guid(93a7fe50d5131424189b674368cfdb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c5da39e237207dc2506e9cc1b7d1e2') in 0.055454 seconds
+  Time since last request: 15906.115860 seconds.
+  path: Assets/prefabs/wall.prefab
+  artifactKey: Guid(2282c8a85b4284cddba485cdc27c16b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/wall.prefab using Guid(2282c8a85b4284cddba485cdc27c16b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0731c2d644cb9763239abe67bf4880') in 0.053417 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
 ========================================================================
 Received Import Request.
-  Time since last request: 131.890101 seconds.
-  path: Assets/prefabs/floor_tile_small_weeds_B.prefab
-  artifactKey: Guid(30b31db1d041a40aabba2b0bfbd3f5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/floor_tile_small_weeds_B.prefab using Guid(30b31db1d041a40aabba2b0bfbd3f5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28401a6758d387def71e38c0e3167a48') in 0.005161 seconds
+  Time since last request: 370.175740 seconds.
+  path: Assets/prefabs/wall_doorway_sides.prefab
+  artifactKey: Guid(bbb071bca2b4e4d4f9d96115061d37f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/wall_doorway_sides.prefab using Guid(bbb071bca2b4e4d4f9d96115061d37f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba3c95a9d685d4d87effdcc55885d6b') in 0.006027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 532.458348 seconds.
+  path: Assets/prefabs/floor_wood_small_dark.prefab
+  artifactKey: Guid(46b92824ca96a43f9baeecae621b6846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/floor_wood_small_dark.prefab using Guid(46b92824ca96a43f9baeecae621b6846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a2bc97faa960890383b018757b8afe') in 0.005781 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
 ========================================================================
 Received Import Request.
-  Time since last request: 2.528264 seconds.
-  path: Assets/prefabs/floor_tile_small_weeds_A.prefab
-  artifactKey: Guid(1253989132d9d431c9c11578137ae9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/floor_tile_small_weeds_A.prefab using Guid(1253989132d9d431c9c11578137ae9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d7959dc0836d6977efe34706fe5430') in 0.005135 seconds
+  Time since last request: 1.848662 seconds.
+  path: Assets/prefabs/floor_wood_small.prefab
+  artifactKey: Guid(4f8837c10e43646c59aa4e2cc847e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/floor_wood_small.prefab using Guid(4f8837c10e43646c59aa4e2cc847e6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9643f84b8d2de2bc1c0e179fcb57f2b') in 0.004304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 235.715284 seconds.
+  path: Assets/prefabs/floor_wood_large (1).prefab
+  artifactKey: Guid(5798605d0225049f48684b3533ceb64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/floor_wood_large (1).prefab using Guid(5798605d0225049f48684b3533ceb64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360c96aced128a55f619fcc0e4569d97') in 0.005411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 217.880510 seconds.
+  path: Assets/prefabs/wall_corner.prefab
+  artifactKey: Guid(2589378c490b14b69ac9946ecda9e6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/wall_corner.prefab using Guid(2589378c490b14b69ac9946ecda9e6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daab3320a38d482878563218db5cfd0') in 0.005454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 258.921364 seconds.
+  path: Assets/prefabs/wall_inset_candles.prefab
+  artifactKey: Guid(f529a767cf43b47739518974c782d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/wall_inset_candles.prefab using Guid(f529a767cf43b47739518974c782d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7ba9bf7c2e5a68c661ece11071add9') in 0.005645 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
